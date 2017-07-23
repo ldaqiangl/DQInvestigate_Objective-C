@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HardwareTableViewCell.h
 //  DQInvestigate
 //
 //  Created by 董富强 on 2017/7/17.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface HardwareTableViewCell : UITableViewCell
 
+@property (weak, nonatomic) IBOutlet UILabel *hardwareTitleLabel;
 
 @end
-

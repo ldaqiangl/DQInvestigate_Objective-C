@@ -1,0 +1,43 @@
+//
+//  DQInvestigatePrefixHeader.pch
+//  DQInvestigate
+//
+//  Created by 董富强 on 2017/7/17.
+//  Copyright © 2017年 董富强. All rights reserved.
+//
+
+#ifndef DQInvestigatePrefixHeader_pch
+#define DQInvestigatePrefixHeader_pch
+
+#import "MJRefresh.h"
+#import "BabyBluetooth.h"
+#import <XZLDependencyPackage/XZLDependencyPackage.h>
+#import "BSExtKit.h"
+#import "SVProgressHUD.h"
+
+#define GLLoggingPageImpression @"GLLoggingPageImpression"
+#define GLLoggingTrackedEvents @"GLLoggingTrackedEvents"
+#define GLLoggingEventName @"GLLoggingEventName"
+#define GLLoggingEventSelectorName @"GLLoggingEventSelectorName"
+#define GLLoggingEventHandlerBlock @"GLLoggingEventHandlerBlock"
+
+
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+
+#define PX_TO_PT(px) px*kScreenWidth/750.0
+
+#ifdef DEBUG
+#define debugLog(...) NSLog(__VA_ARGS_)
+#define debugMethod() NSLog(@"%s",__func__)
+#else
+#define debugLog(...)
+#define debugMethod()
+#endif
+
+#define RGB(A,B,C) [UIColor colorWithRed:A/255.0 green:B/255.0 blue:C/255.0 alpha:1.0]
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* DQInvestigatePrefixHeader_pch */
