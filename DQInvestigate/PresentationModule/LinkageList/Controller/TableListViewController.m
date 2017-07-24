@@ -12,6 +12,7 @@
 #import "NetDataModel.h"
 
 #import "CustomeTableViewController.h"
+#import "CollectionViewController.h"
 
 @interface TableListViewController ()
 <UITableViewDelegate,UITableViewDataSource>
@@ -150,6 +151,11 @@
         CustomeTableViewController *customeTableVc = [[CustomeTableViewController alloc] init];
         customeTableVc.hidesBottomBarWhenPushed = YES;
         [self.navigationController pushViewController:customeTableVc animated:YES];
+    } else if (indexPath.row == 1) {
+        
+        CollectionViewController *collectionVc = [[CollectionViewController alloc] init];
+        collectionVc.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:collectionVc animated:YES];
     }
 }
 
@@ -158,12 +164,16 @@
     if (!_dataSourceArr) {
         
         _dataSourceArr = [NSMutableArray array];
+        
+        NSArray *arr = @[@"TableView Test",@"CollectionView Test"];
+        
         for (NSInteger i = 0; i < 10; i++) {
             
             NetDataModel *dataModle = [[NetDataModel alloc] init];
-            if (i == 0) {
+            
+            if (i < arr.count) {
                 
-                dataModle.titleName = @"Custome TableView";
+                dataModle.titleName = arr[i];
             } else {
                 
                 dataModle.titleName = [NSString stringWithFormat:@"this is %d",(int)i];

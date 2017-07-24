@@ -27,6 +27,10 @@
 		702ECCA01F1C8AAB001B35E8 /* HardwareTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 702ECC9F1F1C8AAB001B35E8 /* HardwareTableViewCell.m */; };
 		702ECCA71F1C91AC001B35E8 /* ReactiveProgramingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702ECCA51F1C91AC001B35E8 /* ReactiveProgramingViewController.m */; };
 		702ECCA81F1C91AC001B35E8 /* ReactiveProgramingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 702ECCA61F1C91AC001B35E8 /* ReactiveProgramingViewController.xib */; };
+		70AA60B81F25DAF500AE14F7 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AA60B71F25DAF500AE14F7 /* CollectionViewController.m */; };
+		70AA60BB1F25DC4100AE14F7 /* Scroll3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AA60BA1F25DC4100AE14F7 /* Scroll3DViewController.m */; };
+		70AA60BE1F25DCA100AE14F7 /* DQScroll3DFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AA60BD1F25DCA100AE14F7 /* DQScroll3DFlowLayout.m */; };
+		70AA60C11F25DCC300AE14F7 /* DQCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AA60C01F25DCC300AE14F7 /* DQCollectionViewCell.m */; };
 		70B302421F243C520067FB3C /* _DQViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B3023D1F243C520067FB3C /* _DQViewManager.m */; };
 		70B302431F243C520067FB3C /* DQHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B3023F1F243C520067FB3C /* DQHeaderView.m */; };
 		70B302441F243C520067FB3C /* DQScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B302411F243C520067FB3C /* DQScrollView.m */; };
@@ -143,6 +147,14 @@
 		702ECCA41F1C91AC001B35E8 /* ReactiveProgramingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactiveProgramingViewController.h; sourceTree = "<group>"; };
 		702ECCA51F1C91AC001B35E8 /* ReactiveProgramingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactiveProgramingViewController.m; sourceTree = "<group>"; };
 		702ECCA61F1C91AC001B35E8 /* ReactiveProgramingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReactiveProgramingViewController.xib; sourceTree = "<group>"; };
+		70AA60B61F25DAF500AE14F7 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		70AA60B71F25DAF500AE14F7 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		70AA60B91F25DC4100AE14F7 /* Scroll3DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scroll3DViewController.h; sourceTree = "<group>"; };
+		70AA60BA1F25DC4100AE14F7 /* Scroll3DViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scroll3DViewController.m; sourceTree = "<group>"; };
+		70AA60BC1F25DCA100AE14F7 /* DQScroll3DFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQScroll3DFlowLayout.h; sourceTree = "<group>"; };
+		70AA60BD1F25DCA100AE14F7 /* DQScroll3DFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQScroll3DFlowLayout.m; sourceTree = "<group>"; };
+		70AA60BF1F25DCC300AE14F7 /* DQCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQCollectionViewCell.h; sourceTree = "<group>"; };
+		70AA60C01F25DCC300AE14F7 /* DQCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQCollectionViewCell.m; sourceTree = "<group>"; };
 		70B3023C1F243C520067FB3C /* _DQViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _DQViewManager.h; sourceTree = "<group>"; };
 		70B3023D1F243C520067FB3C /* _DQViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _DQViewManager.m; sourceTree = "<group>"; };
 		70B3023E1F243C520067FB3C /* DQHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQHeaderView.h; sourceTree = "<group>"; };
@@ -415,6 +427,7 @@
 		702ECC611F1C6FCB001B35E8 /* PresentationModule */ = {
 			isa = PBXGroup;
 			children = (
+				70AA60B21F25DAD600AE14F7 /* CustomeCollectionView */,
 				70B302451F243D330067FB3C /* CustomeTableView */,
 				702ECCAA1F1C9404001B35E8 /* LinkageList(联动列表) */,
 				702ECC641F1C6FCB001B35E8 /* Base */,
@@ -618,6 +631,45 @@
 				70F60A231F1C9AB500D9697D /* BSContainerTableView.m */,
 				70F60A241F1C9AB500D9697D /* BSMultiMenuView.h */,
 				70F60A251F1C9AB500D9697D /* BSMultiMenuView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		70AA60B21F25DAD600AE14F7 /* CustomeCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				70AA60B31F25DAD600AE14F7 /* Controller */,
+				70AA60B41F25DAD600AE14F7 /* Model */,
+				70AA60B51F25DAD600AE14F7 /* View */,
+			);
+			path = CustomeCollectionView;
+			sourceTree = "<group>";
+		};
+		70AA60B31F25DAD600AE14F7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				70AA60B61F25DAF500AE14F7 /* CollectionViewController.h */,
+				70AA60B71F25DAF500AE14F7 /* CollectionViewController.m */,
+				70AA60B91F25DC4100AE14F7 /* Scroll3DViewController.h */,
+				70AA60BA1F25DC4100AE14F7 /* Scroll3DViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		70AA60B41F25DAD600AE14F7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				70AA60BC1F25DCA100AE14F7 /* DQScroll3DFlowLayout.h */,
+				70AA60BD1F25DCA100AE14F7 /* DQScroll3DFlowLayout.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		70AA60B51F25DAD600AE14F7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				70AA60BF1F25DCC300AE14F7 /* DQCollectionViewCell.h */,
+				70AA60C01F25DCC300AE14F7 /* DQCollectionViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1142,6 +1194,7 @@
 				70F60A8A1F1C9BFF00D9697D /* UIColor+BSExt.m in Sources */,
 				70F60A8E1F1C9BFF00D9697D /* UILabel+BSExt.m in Sources */,
 				70F60A4E1F1C9AE300D9697D /* BabyToy.m in Sources */,
+				70AA60BB1F25DC4100AE14F7 /* Scroll3DViewController.m in Sources */,
 				70F60A311F1C9ADB00D9697D /* BSCycleLayout.m in Sources */,
 				70F60A4C1F1C9AE300D9697D /* BabyRhythm.m in Sources */,
 				70F60A891F1C9BFF00D9697D /* UIApplication+BSExt.m in Sources */,
@@ -1158,12 +1211,14 @@
 				70B302441F243C520067FB3C /* DQScrollView.m in Sources */,
 				70B302431F243C520067FB3C /* DQHeaderView.m in Sources */,
 				70F60A811F1C9BFF00D9697D /* BSLanguage.m in Sources */,
+				70AA60C11F25DCC300AE14F7 /* DQCollectionViewCell.m in Sources */,
 				70F60A461F1C9AE300D9697D /* BabyBluetooth.m in Sources */,
 				70F60ABF1F1C9DDA00D9697D /* SDCycleScrollView.m in Sources */,
 				70F60AC71F1C9DEC00D9697D /* UIViewController+NJKFullScreenSupport.m in Sources */,
 				70F60ABD1F1C9DDA00D9697D /* TAPageControl.m in Sources */,
 				70F60A881F1C9BFF00D9697D /* NSString+BSExt.m in Sources */,
 				70F60ABE1F1C9DDA00D9697D /* SDCollectionViewCell.m in Sources */,
+				70AA60B81F25DAF500AE14F7 /* CollectionViewController.m in Sources */,
 				70F60A491F1C9AE300D9697D /* BabyDefine.m in Sources */,
 				702ECC9C1F1C8A81001B35E8 /* DQThirdLibViewController.m in Sources */,
 				702ECC991F1C8A81001B35E8 /* DQNavigationController.m in Sources */,
@@ -1190,6 +1245,7 @@
 				702ECC571F1C6CD9001B35E8 /* DQInvestigate.xcdatamodeld in Sources */,
 				70F60A4D1F1C9AE300D9697D /* BabySpeaker.m in Sources */,
 				70F60A4B1F1C9AE300D9697D /* BabyPeripheralManager.m in Sources */,
+				70AA60BE1F25DCA100AE14F7 /* DQScroll3DFlowLayout.m in Sources */,
 				70F60A271F1C9AB500D9697D /* BSMultiMenuView.m in Sources */,
 				70F60A8F1F1C9BFF00D9697D /* UIView+BSExt.m in Sources */,
 				70F60A801F1C9BFF00D9697D /* BSHelper.m in Sources */,
