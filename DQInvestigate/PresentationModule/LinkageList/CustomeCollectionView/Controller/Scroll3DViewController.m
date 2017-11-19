@@ -27,20 +27,19 @@ static NSString *DQ3DCellID = @"DQ3DCellID";
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
+    self.automaticallyAdjustsScrollViewInsets = NO;
     
     DQScroll3DFlowLayout *layout = [[DQScroll3DFlowLayout alloc] init];
     
     UICollectionView *colletionView =
-    [[UICollectionView alloc] initWithFrame:CGRectMake(0, 64, self.view.width_DQExt, 300) collectionViewLayout:layout];
+    [[UICollectionView alloc] initWithFrame:CGRectMake(0, 164, self.view.width_DQExt, 300) collectionViewLayout:layout];
     colletionView.delegate = self;
     colletionView.dataSource = self;
-    
+    colletionView.backgroundColor = [UIColor grayColor];
     self.collectionView = colletionView;
     [self.view addSubview:colletionView];
     
     [colletionView registerClass:[DQCollectionViewCell class] forCellWithReuseIdentifier:DQ3DCellID];
-    
-    
 }
 
 
@@ -54,6 +53,8 @@ static NSString *DQ3DCellID = @"DQ3DCellID";
     
     UICollectionViewCell *cell =
     [collectionView dequeueReusableCellWithReuseIdentifier:DQ3DCellID forIndexPath:indexPath];
+    
+    cell.backgroundColor = indexPath.item % 2 == 0 ? [UIColor blueColor] : [UIColor redColor];
     
     return cell;
 }

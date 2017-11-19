@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		17C8C363D126803278702CF7 /* Pods_DQInvestigateUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A962CC219181272883356FD3 /* Pods_DQInvestigateUITests.framework */; };
+		7004390F1F28456D00443C17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7004390E1F28456D00443C17 /* InfoPlist.strings */; };
 		702ECC221F1C69B0001B35E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 702ECC201F1C69B0001B35E8 /* Main.storyboard */; };
 		702ECC2A1F1C69B0001B35E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 702ECC281F1C69B0001B35E8 /* LaunchScreen.storyboard */; };
 		702ECC351F1C69B0001B35E8 /* DQInvestigateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 702ECC341F1C69B0001B35E8 /* DQInvestigateTests.m */; };
@@ -35,6 +36,11 @@
 		70B302431F243C520067FB3C /* DQHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B3023F1F243C520067FB3C /* DQHeaderView.m */; };
 		70B302441F243C520067FB3C /* DQScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B302411F243C520067FB3C /* DQScrollView.m */; };
 		70B302481F243D5C0067FB3C /* CustomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B302471F243D5C0067FB3C /* CustomeTableViewController.m */; };
+		70C0135A1F682E4100A62303 /* OtherTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C013591F682E4100A62303 /* OtherTestViewController.m */; };
+		70C0135E1F682F6E00A62303 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 70C0135B1F682F6E00A62303 /* 1.jpg */; };
+		70C0135F1F682F6E00A62303 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 70C0135C1F682F6E00A62303 /* 2.jpg */; };
+		70C013601F682F6E00A62303 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 70C0135D1F682F6E00A62303 /* 3.jpg */; };
+		70C013621F682FA000A62303 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 70C013611F682FA000A62303 /* 0.jpg */; };
 		70E4A6211F245A8B0056BD61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70E4A6201F245A8B0056BD61 /* Assets.xcassets */; };
 		70F60A261F1C9AB500D9697D /* BSContainerTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F60A231F1C9AB500D9697D /* BSContainerTableView.m */; };
 		70F60A271F1C9AB500D9697D /* BSMultiMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F60A251F1C9AB500D9697D /* BSMultiMenuView.m */; };
@@ -91,6 +97,10 @@
 		70F60AD01F1C9E0B00D9697D /* YiRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F60ACD1F1C9E0B00D9697D /* YiRefreshHeader.m */; };
 		8C4352B19F002DCE12670B57 /* Pods_DQInvestigateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71677DBAD61E1B441B7B86E9 /* Pods_DQInvestigateTests.framework */; };
 		CEE9D38EDD982ADA1D50920C /* Pods_DQInvestigate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6A030B4ED71C1C29F24BE44 /* Pods_DQInvestigate.framework */; };
+		DC98FB901FC12CFE0080CE42 /* TestScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC98FB8E1FC12CFE0080CE42 /* TestScrollViewController.m */; };
+		DC98FB911FC12CFE0080CE42 /* TestScrollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC98FB8F1FC12CFE0080CE42 /* TestScrollViewController.xib */; };
+		DC98FB941FC135C80080CE42 /* DQButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DC98FB931FC135C80080CE42 /* DQButton.m */; };
+		DC98FB971FC143140080CE42 /* MyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC98FB961FC143140080CE42 /* MyScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +122,11 @@
 
 /* Begin PBXFileReference section */
 		3C8C2C30B543B81579E381C2 /* Pods-DQInvestigate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DQInvestigate.release.xcconfig"; path = "Pods/Target Support Files/Pods-DQInvestigate/Pods-DQInvestigate.release.xcconfig"; sourceTree = "<group>"; };
+		7004390A1F28450300443C17 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		7004390B1F28450300443C17 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		7004390C1F28451700443C17 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		7004390D1F28451700443C17 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		7004390E1F28456D00443C17 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
 		702ECC141F1C69B0001B35E8 /* DQInvestigate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DQInvestigate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		702ECC211F1C69B0001B35E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		702ECC291F1C69B0001B35E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -163,6 +178,12 @@
 		70B302411F243C520067FB3C /* DQScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQScrollView.m; sourceTree = "<group>"; };
 		70B302461F243D5C0067FB3C /* CustomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomeTableViewController.h; sourceTree = "<group>"; };
 		70B302471F243D5C0067FB3C /* CustomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomeTableViewController.m; sourceTree = "<group>"; };
+		70C013581F682E4100A62303 /* OtherTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherTestViewController.h; sourceTree = "<group>"; };
+		70C013591F682E4100A62303 /* OtherTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherTestViewController.m; sourceTree = "<group>"; };
+		70C0135B1F682F6E00A62303 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		70C0135C1F682F6E00A62303 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		70C0135D1F682F6E00A62303 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		70C013611F682FA000A62303 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
 		70E4A6201F245A8B0056BD61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70F60A221F1C9AB500D9697D /* BSContainerTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSContainerTableView.h; sourceTree = "<group>"; };
 		70F60A231F1C9AB500D9697D /* BSContainerTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSContainerTableView.m; sourceTree = "<group>"; };
@@ -276,6 +297,13 @@
 		92936A71C88AAB76F14F7C38 /* Pods-DQInvestigateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DQInvestigateTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DQInvestigateTests/Pods-DQInvestigateTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A962CC219181272883356FD3 /* Pods_DQInvestigateUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DQInvestigateUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC18A8C4DD7629650F9DA696 /* Pods-DQInvestigate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DQInvestigate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DQInvestigate/Pods-DQInvestigate.debug.xcconfig"; sourceTree = "<group>"; };
+		DC98FB8D1FC12CFE0080CE42 /* TestScrollViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestScrollViewController.h; sourceTree = "<group>"; };
+		DC98FB8E1FC12CFE0080CE42 /* TestScrollViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestScrollViewController.m; sourceTree = "<group>"; };
+		DC98FB8F1FC12CFE0080CE42 /* TestScrollViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestScrollViewController.xib; sourceTree = "<group>"; };
+		DC98FB921FC135C80080CE42 /* DQButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DQButton.h; sourceTree = "<group>"; };
+		DC98FB931FC135C80080CE42 /* DQButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DQButton.m; sourceTree = "<group>"; };
+		DC98FB951FC143140080CE42 /* MyScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScrollView.h; sourceTree = "<group>"; };
+		DC98FB961FC143140080CE42 /* MyScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScrollView.m; sourceTree = "<group>"; };
 		E6A030B4ED71C1C29F24BE44 /* Pods_DQInvestigate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DQInvestigate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB0772F042C083C688E2C896 /* Pods-DQInvestigateUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DQInvestigateUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DQInvestigateUITests/Pods-DQInvestigateUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F6E9BD07BB861CF30CD58934 /* Pods-DQInvestigateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DQInvestigateTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DQInvestigateTests/Pods-DQInvestigateTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -313,6 +341,11 @@
 		702ECC0B1F1C69B0001B35E8 = {
 			isa = PBXGroup;
 			children = (
+				70C013611F682FA000A62303 /* 0.jpg */,
+				70C0135B1F682F6E00A62303 /* 1.jpg */,
+				70C0135C1F682F6E00A62303 /* 2.jpg */,
+				70C0135D1F682F6E00A62303 /* 3.jpg */,
+				7004390E1F28456D00443C17 /* InfoPlist.strings */,
 				70E4A6201F245A8B0056BD61 /* Assets.xcassets */,
 				702ECC201F1C69B0001B35E8 /* Main.storyboard */,
 				702ECC281F1C69B0001B35E8 /* LaunchScreen.storyboard */,
@@ -427,9 +460,8 @@
 		702ECC611F1C6FCB001B35E8 /* PresentationModule */ = {
 			isa = PBXGroup;
 			children = (
-				70AA60B21F25DAD600AE14F7 /* CustomeCollectionView */,
-				70B302451F243D330067FB3C /* CustomeTableView */,
 				702ECCAA1F1C9404001B35E8 /* LinkageList(联动列表) */,
+				70C013571F682E3400A62303 /* Others */,
 				702ECC641F1C6FCB001B35E8 /* Base */,
 				702ECC621F1C6FCB001B35E8 /* AOP */,
 				702ECC631F1C6FCB001B35E8 /* AutoLayout */,
@@ -594,6 +626,9 @@
 		702ECCAA1F1C9404001B35E8 /* LinkageList(联动列表) */ = {
 			isa = PBXGroup;
 			children = (
+				DC98FB8C1FC12CAC0080CE42 /* TestScrollView */,
+				70AA60B21F25DAD600AE14F7 /* CustomeCollectionView */,
+				70B302451F243D330067FB3C /* CustomeTableView */,
 				702ECCAB1F1C9404001B35E8 /* Controller */,
 				702ECCAC1F1C9404001B35E8 /* Model */,
 				702ECCAD1F1C9404001B35E8 /* View */,
@@ -631,6 +666,10 @@
 				70F60A231F1C9AB500D9697D /* BSContainerTableView.m */,
 				70F60A241F1C9AB500D9697D /* BSMultiMenuView.h */,
 				70F60A251F1C9AB500D9697D /* BSMultiMenuView.m */,
+				DC98FB921FC135C80080CE42 /* DQButton.h */,
+				DC98FB931FC135C80080CE42 /* DQButton.m */,
+				DC98FB951FC143140080CE42 /* MyScrollView.h */,
+				DC98FB961FC143140080CE42 /* MyScrollView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -694,6 +733,15 @@
 				70B302471F243D5C0067FB3C /* CustomeTableViewController.m */,
 			);
 			path = CustomeTableView;
+			sourceTree = "<group>";
+		};
+		70C013571F682E3400A62303 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				70C013581F682E4100A62303 /* OtherTestViewController.h */,
+				70C013591F682E4100A62303 /* OtherTestViewController.m */,
+			);
+			path = Others;
 			sourceTree = "<group>";
 		};
 		70F60A281F1C9ADB00D9697D /* BSCycleScrollView */ = {
@@ -903,6 +951,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DC98FB8C1FC12CAC0080CE42 /* TestScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				DC98FB8D1FC12CFE0080CE42 /* TestScrollViewController.h */,
+				DC98FB8E1FC12CFE0080CE42 /* TestScrollViewController.m */,
+				DC98FB8F1FC12CFE0080CE42 /* TestScrollViewController.xib */,
+			);
+			path = TestScrollView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1021,11 +1079,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70C013621F682FA000A62303 /* 0.jpg in Resources */,
+				70C013601F682F6E00A62303 /* 3.jpg in Resources */,
 				70F60ACE1F1C9E0B00D9697D /* down@2x.png in Resources */,
+				7004390F1F28456D00443C17 /* InfoPlist.strings in Resources */,
+				70C0135F1F682F6E00A62303 /* 2.jpg in Resources */,
 				702ECC581F1C6CD9001B35E8 /* Info.plist in Resources */,
+				DC98FB911FC12CFE0080CE42 /* TestScrollViewController.xib in Resources */,
 				70F60A971F1C9CEE00D9697D /* SVProgressHUD.bundle in Resources */,
 				702ECC2A1F1C69B0001B35E8 /* LaunchScreen.storyboard in Resources */,
 				70E4A6211F245A8B0056BD61 /* Assets.xcassets in Resources */,
+				70C0135E1F682F6E00A62303 /* 1.jpg in Resources */,
 				702ECCA81F1C91AC001B35E8 /* ReactiveProgramingViewController.xib in Resources */,
 				702ECC221F1C69B0001B35E8 /* Main.storyboard in Resources */,
 			);
@@ -1193,7 +1257,9 @@
 				70F60A321F1C9ADB00D9697D /* BSCycleScrollView.m in Sources */,
 				70F60A8A1F1C9BFF00D9697D /* UIColor+BSExt.m in Sources */,
 				70F60A8E1F1C9BFF00D9697D /* UILabel+BSExt.m in Sources */,
+				DC98FB901FC12CFE0080CE42 /* TestScrollViewController.m in Sources */,
 				70F60A4E1F1C9AE300D9697D /* BabyToy.m in Sources */,
+				DC98FB971FC143140080CE42 /* MyScrollView.m in Sources */,
 				70AA60BB1F25DC4100AE14F7 /* Scroll3DViewController.m in Sources */,
 				70F60A311F1C9ADB00D9697D /* BSCycleLayout.m in Sources */,
 				70F60A4C1F1C9AE300D9697D /* BabyRhythm.m in Sources */,
@@ -1210,11 +1276,13 @@
 				70F60A261F1C9AB500D9697D /* BSContainerTableView.m in Sources */,
 				70B302441F243C520067FB3C /* DQScrollView.m in Sources */,
 				70B302431F243C520067FB3C /* DQHeaderView.m in Sources */,
+				DC98FB941FC135C80080CE42 /* DQButton.m in Sources */,
 				70F60A811F1C9BFF00D9697D /* BSLanguage.m in Sources */,
 				70AA60C11F25DCC300AE14F7 /* DQCollectionViewCell.m in Sources */,
 				70F60A461F1C9AE300D9697D /* BabyBluetooth.m in Sources */,
 				70F60ABF1F1C9DDA00D9697D /* SDCycleScrollView.m in Sources */,
 				70F60AC71F1C9DEC00D9697D /* UIViewController+NJKFullScreenSupport.m in Sources */,
+				70C0135A1F682E4100A62303 /* OtherTestViewController.m in Sources */,
 				70F60ABD1F1C9DDA00D9697D /* TAPageControl.m in Sources */,
 				70F60A881F1C9BFF00D9697D /* NSString+BSExt.m in Sources */,
 				70F60ABE1F1C9DDA00D9697D /* SDCollectionViewCell.m in Sources */,
@@ -1301,6 +1369,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				702ECC211F1C69B0001B35E8 /* Base */,
+				7004390A1F28450300443C17 /* zh-Hans */,
+				7004390C1F28451700443C17 /* zh-Hant */,
 			);
 			name = Main.storyboard;
 			path = DQInvestigate;
@@ -1310,6 +1380,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				702ECC291F1C69B0001B35E8 /* Base */,
+				7004390B1F28450300443C17 /* zh-Hans */,
+				7004390D1F28451700443C17 /* zh-Hant */,
 			);
 			name = LaunchScreen.storyboard;
 			path = DQInvestigate;
@@ -1322,6 +1394,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -1371,6 +1444,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
