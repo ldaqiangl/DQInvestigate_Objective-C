@@ -25,7 +25,6 @@ static const CGFloat normalYScale = 1.0;
 @property (nonatomic, strong) NSMutableArray *allTitleBtnsArr;
 
 @property (nonatomic, weak) UIScrollView *titlesScrollView;
-@property (nonatomic, weak) UIScrollView *pagesScrollView;
 @property (nonatomic, weak) UIButton *selectedBtn;
 @property (nonatomic, strong) NSMutableArray *pageControllersArr;
 

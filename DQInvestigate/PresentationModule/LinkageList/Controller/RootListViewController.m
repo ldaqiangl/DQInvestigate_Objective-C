@@ -25,6 +25,8 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     self.isCanScroll = NO;
+    
+    
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -39,13 +41,13 @@
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
     CGFloat offsetY = scrollView.contentOffset.y;
-
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"TableListIsScrolling" object:@(offsetY)];
+    
     if (!_isCanScroll) {
-        [scrollView setContentOffset:CGPointMake(0, _preIsCanScrollOffY)];
-    } else {
-        _preIsCanScrollOffY = MAX(offsetY, 0);
-    }
 
+        [scrollView setContentOffset:CGPointMake(0, 0)];
+    }
+    
     _scrollView = scrollView;
 }
 
@@ -56,9 +58,12 @@
 {
     if ([keyPath isEqualToString:@"listState"]) {
         ListStateType type = [[change objectForKey:@"new"] integerValue];
-        if (type == eListStateNormalTopType) {
+        if (type != eListStateTopType) {
+            
             _isCanScroll = NO;
+            [_scrollView setContentOffset:CGPointMake(0, 0)];
         } else {
+            
             _isCanScroll = YES;
         }
     }

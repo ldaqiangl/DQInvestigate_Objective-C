@@ -29,6 +29,7 @@ UITableViewDataSource>
     int total;
     CGFloat _movedS;
     CGFloat _preOffY;
+    NSInteger _currentListOffY;
 }
 
 @property (nonatomic, assign) ListStateType listState;
@@ -77,6 +78,7 @@ UITableViewDataSource>
     
     [super viewDidLoad];
     
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(tableListScroll:) name:@"TableListIsScrolling" object:nil];
     self.view.backgroundColor = [UIColor whiteColor];
     self.automaticallyAdjustsScrollViewInsets = NO;
     
@@ -86,6 +88,7 @@ UITableViewDataSource>
     self.listState = eListStateNormalType;
     
     [self setupIADView];
+    
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -159,6 +162,8 @@ UITableViewDataSource>
     
     [cell addSubview:[self setPageViewControllers]];
     
+    [tableView.panGestureRecognizer requireGestureRecognizerToFail:self.multiMenuView.pagesScrollView.panGestureRecognizer];
+    
     return cell;
 }
 
@@ -185,34 +190,50 @@ UITableViewDataSource>
 
 #pragma mark - <UIScrollViewDelegate> -
 
+- (void)tableListScroll:(NSNotification *)noticefy {
+        
+    _currentListOffY = [noticefy.object integerValue];
+    if ([noticefy.object floatValue] > 0 && self.listState == eListStateTopType) {
+        
+        self.listState = eListStateTopType;
+        self.platformView.contentOffset = CGPointMake(0, 0);
+    }
+}
+
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     
     CGFloat offY = scrollView.contentOffset.y;
     
-    if (offY >= 0) {
+    if (offY >= -0) {
         
         self.listState = eListStateTopType;
         scrollView.contentOffset = CGPointMake(0, 0);
-        
     } else {
+        
+        if (_currentListOffY > 0) {
+            
+            scrollView.contentOffset = CGPointMake(0, 0);
+        }
         
         if (offY > -HeadViewHeight) {
             
-            self.listState = eListStateNormalTopType;
-            
+            if (_currentListOffY > 0) {
+                
+            } else {
+                
+                self.listState = eListStateNormalTopType;
+            }
         } else if (offY == -HeadViewHeight) {
             
             self.listState = eListStateNormalType;
-            scrollView.contentOffset = CGPointMake(0, -HeadViewHeight);
-            
+//            scrollView.contentOffset = CGPointMake(0, -HeadViewHeight);
         } else if (offY < -HeadViewHeight) {
             
             self.listState = eListStateNormalDownType;
-            scrollView.contentOffset = CGPointMake(0, -HeadViewHeight);
+//            scrollView.contentOffset = CGPointMake(0, -HeadViewHeight);
             
         }
     }
-    
     
     _preOffY = offY;
 }

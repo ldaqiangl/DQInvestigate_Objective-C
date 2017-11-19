@@ -12,6 +12,8 @@
 
 @interface BSMultiMenuView : UIView
 
+@property (nonatomic, weak) UIScrollView *pagesScrollView;
+
 @property (nonatomic, weak) UIViewController *managerVc;
 @property (nonatomic, strong) NSMutableArray *titlesArr;
 

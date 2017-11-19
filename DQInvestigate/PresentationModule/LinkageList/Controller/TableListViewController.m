@@ -176,7 +176,7 @@
         
         NSArray *arr = @[@"TableView Test",@"CollectionView Test", @"ScrollView Test"];
         
-        for (NSInteger i = 0; i < 30; i++) {
+        for (NSInteger i = 0; i < 300; i++) {
             
             NetDataModel *dataModle = [[NetDataModel alloc] init];
             
