@@ -38,13 +38,18 @@
 {
 }
 
+
+
+#if STYLE_SWITCH
+
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
+    
     CGFloat offsetY = scrollView.contentOffset.y;
     [[NSNotificationCenter defaultCenter] postNotificationName:@"TableListIsScrolling" object:@(offsetY)];
     
     if (!_isCanScroll) {
-
+        
         [scrollView setContentOffset:CGPointMake(0, 0)];
     }
     
@@ -68,6 +73,11 @@
         }
     }
 }
+
+#else
+
+
+#endif
 
 
 - (void)didReceiveMemoryWarning

@@ -85,6 +85,12 @@ DQNumberAxis DQNumberAxisFromString(NSString *string) {
                        headerView.frame.size.width, headerView.frame.size.height);
         }
     }
+    
+    
+    if ([_delegate respondsToSelector:@selector(scrollViewDidScroll:)]) {
+        
+        [_delegate scrollViewDidScroll:scrollView];
+    }
 }
 
 

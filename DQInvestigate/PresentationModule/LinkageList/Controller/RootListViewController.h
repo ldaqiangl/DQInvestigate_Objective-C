@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+#define STYLE_SWITCH 0
+
 static CGFloat const HeadViewHeight = 160;
 static CGFloat const BS_NAV_H = 44;
 static CGFloat const BS_STATEBAR_H = 20;
@@ -22,10 +24,9 @@ typedef NS_ENUM(NSInteger, ListStateType) {
 
 
 @interface RootListViewController : UIViewController
+
 @property (nonatomic, weak) UIViewController *managerVc;
-
 //@property (nonatomic, assign) BOOL isSelected;
-
 @property (strong, nonatomic) UIScrollView *scrollView;
 
 - (void)listViewDidAppear;

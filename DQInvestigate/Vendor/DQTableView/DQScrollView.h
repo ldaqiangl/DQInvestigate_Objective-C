@@ -37,7 +37,6 @@
 @interface DQScrollView : UIScrollView
 
 @property (nonatomic, assign) id<DQScrollViewDelegate> delegate;
-
 @property (nonatomic, assign) id<DQScrollViewDataSource> dataSource;
 
 - (void)reloadScrollView;

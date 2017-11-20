@@ -18,25 +18,27 @@
 
 @end
 @implementation DQScrollView
-
 @synthesize delegate = _delegate;
-
-
-- (void)setDelegate:(id<DQScrollViewDelegate>)delegate {
-    
-    _delegate = _vm;
-    [super setDelegate:_delegate];
-    
-    _vm.delegate = delegate;
-}
 
 - (instancetype)initWithFrame:(CGRect)frame {
     
     if (self = [super initWithFrame:frame]) {
         
         _vm = [[_DQViewManager alloc] init];
+        _delegate = _vm;
     }
     return self;
+}
+
+- (void)setDelegate:(id<DQScrollViewDelegate>)delegate {
+    
+    [super setDelegate:_delegate];
+    _vm.delegate = delegate;
+}
+
+- (id<DQScrollViewDelegate>)delegate {
+    
+    return _vm.delegate;
 }
 
 - (void)reloadScrollView {

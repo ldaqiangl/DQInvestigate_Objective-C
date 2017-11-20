@@ -39,6 +39,8 @@
     [self.view addSubview:self.scrollView];
     
     [_scrollView reloadScrollView];
+    
+    NSLog(@"---->> %@",_scrollView.delegate);
 }
 
 

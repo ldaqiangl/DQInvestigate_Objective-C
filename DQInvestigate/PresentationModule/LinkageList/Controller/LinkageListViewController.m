@@ -20,6 +20,9 @@
 #define w [[UIScreen mainScreen] bounds].size.width
 #define h [[UIScreen mainScreen] bounds].size.height
 
+
+
+
 @interface LinkageListViewController ()
 <SDCycleScrollViewDelegate,
 UITableViewDelegate,
@@ -162,8 +165,12 @@ UITableViewDataSource>
     
     [cell addSubview:[self setPageViewControllers]];
     
+#if STYLE_SWITCH
+
     [tableView.panGestureRecognizer requireGestureRecognizerToFail:self.multiMenuView.pagesScrollView.panGestureRecognizer];
+#else
     
+#endif
     return cell;
 }
 
@@ -190,8 +197,10 @@ UITableViewDataSource>
 
 #pragma mark - <UIScrollViewDelegate> -
 
+#if STYLE_SWITCH
+
 - (void)tableListScroll:(NSNotification *)noticefy {
-        
+    
     _currentListOffY = [noticefy.object integerValue];
     if ([noticefy.object floatValue] > 0 && self.listState == eListStateTopType) {
         
@@ -226,17 +235,21 @@ UITableViewDataSource>
         } else if (offY == -HeadViewHeight) {
             
             self.listState = eListStateNormalType;
-//            scrollView.contentOffset = CGPointMake(0, -HeadViewHeight);
+            //            scrollView.contentOffset = CGPointMake(0, -HeadViewHeight);
         } else if (offY < -HeadViewHeight) {
             
             self.listState = eListStateNormalDownType;
-//            scrollView.contentOffset = CGPointMake(0, -HeadViewHeight);
+            //            scrollView.contentOffset = CGPointMake(0, -HeadViewHeight);
             
         }
     }
     
     _preOffY = offY;
 }
+
+#else
+
+#endif
 
 
 
