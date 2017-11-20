@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-#define STYLE_SWITCH 0
+#define STYLE_SWITCH 1
 
 static CGFloat const HeadViewHeight = 160;
 static CGFloat const BS_NAV_H = 44;
@@ -21,7 +21,6 @@ typedef NS_ENUM(NSInteger, ListStateType) {
     eListStateNormalTopType = 2,
     eListStateNormalDownType = 3,
 };
-
 
 @interface RootListViewController : UIViewController
 

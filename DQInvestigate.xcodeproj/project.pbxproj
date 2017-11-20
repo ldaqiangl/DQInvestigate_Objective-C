@@ -460,15 +460,11 @@
 		702ECC611F1C6FCB001B35E8 /* PresentationModule */ = {
 			isa = PBXGroup;
 			children = (
+				DC7EB1381FC2DADB00C38D63 /* HardWare */,
+				DC7EB1351FC2DA6800C38D63 /* ThirdLibs */,
 				702ECCAA1F1C9404001B35E8 /* LinkageList(联动列表) */,
 				70C013571F682E3400A62303 /* Others */,
 				702ECC641F1C6FCB001B35E8 /* Base */,
-				702ECC621F1C6FCB001B35E8 /* AOP */,
-				702ECC631F1C6FCB001B35E8 /* AutoLayout */,
-				702ECC651F1C6FCB001B35E8 /* BlueTooth */,
-				702ECC661F1C6FCB001B35E8 /* CoreText */,
-				702ECC671F1C6FCB001B35E8 /* Functional */,
-				702ECC681F1C6FCB001B35E8 /* ReactivePrograming */,
 			);
 			path = PresentationModule;
 			sourceTree = "<group>";
@@ -499,27 +495,6 @@
 				702ECC971F1C8A81001B35E8 /* View */,
 			);
 			path = Base;
-			sourceTree = "<group>";
-		};
-		702ECC651F1C6FCB001B35E8 /* BlueTooth */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = BlueTooth;
-			sourceTree = "<group>";
-		};
-		702ECC661F1C6FCB001B35E8 /* CoreText */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CoreText;
-			sourceTree = "<group>";
-		};
-		702ECC671F1C6FCB001B35E8 /* Functional */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Functional;
 			sourceTree = "<group>";
 		};
 		702ECC681F1C6FCB001B35E8 /* ReactivePrograming */ = {
@@ -626,6 +601,7 @@
 		702ECCAA1F1C9404001B35E8 /* LinkageList(联动列表) */ = {
 			isa = PBXGroup;
 			children = (
+				702ECC631F1C6FCB001B35E8 /* AutoLayout */,
 				DC98FB8C1FC12CAC0080CE42 /* TestScrollView */,
 				70AA60B21F25DAD600AE14F7 /* CustomeCollectionView */,
 				70B302451F243D330067FB3C /* CustomeTableView */,
@@ -949,6 +925,38 @@
 				A962CC219181272883356FD3 /* Pods_DQInvestigateUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC7EB1351FC2DA6800C38D63 /* ThirdLibs */ = {
+			isa = PBXGroup;
+			children = (
+				702ECC621F1C6FCB001B35E8 /* AOP */,
+				DC7EB1371FC2DABD00C38D63 /* CoreText */,
+				702ECC681F1C6FCB001B35E8 /* ReactivePrograming */,
+			);
+			path = ThirdLibs;
+			sourceTree = "<group>";
+		};
+		DC7EB1361FC2DAB200C38D63 /* BlueTooth */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BlueTooth;
+			sourceTree = "<group>";
+		};
+		DC7EB1371FC2DABD00C38D63 /* CoreText */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreText;
+			sourceTree = "<group>";
+		};
+		DC7EB1381FC2DADB00C38D63 /* HardWare */ = {
+			isa = PBXGroup;
+			children = (
+				DC7EB1361FC2DAB200C38D63 /* BlueTooth */,
+			);
+			path = HardWare;
 			sourceTree = "<group>";
 		};
 		DC98FB8C1FC12CAC0080CE42 /* TestScrollView */ = {

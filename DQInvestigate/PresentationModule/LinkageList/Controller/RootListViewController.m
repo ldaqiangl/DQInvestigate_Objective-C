@@ -76,6 +76,34 @@
 
 #else
 
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView
+{
+    CGFloat offsetY = scrollView.contentOffset.y;
+    
+    if (!_isCanScroll) {
+        [scrollView setContentOffset:CGPointMake(0, _preIsCanScrollOffY)];
+    } else {
+        _preIsCanScrollOffY = MAX(offsetY, 0);
+    }
+    
+    _scrollView = scrollView;
+}
+
+- (void)observeValueForKeyPath:(NSString *)keyPath
+                      ofObject:(id)object
+                        change:(NSDictionary<NSString *, id> *)change
+                       context:(void *)context
+{
+    if ([keyPath isEqualToString:@"listState"]) {
+        ListStateType type = [[change objectForKey:@"new"] integerValue];
+        if (type == eListStateNormalTopType) {
+            _isCanScroll = NO;
+        } else {
+            _isCanScroll = YES;
+        }
+    }
+}
+
 
 #endif
 

@@ -249,6 +249,37 @@ UITableViewDataSource>
 
 #else
 
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
+    
+    CGFloat offY = scrollView.contentOffset.y;
+    
+    if (offY >= 0) {
+        
+        self.listState = eListStateTopType;
+        scrollView.contentOffset = CGPointMake(0, 0);
+        
+    } else {
+        
+        if (offY > -HeadViewHeight) {
+            
+            self.listState = eListStateNormalTopType;
+            
+        } else if (offY == -HeadViewHeight) {
+            
+            self.listState = eListStateNormalType;
+            scrollView.contentOffset = CGPointMake(0, -HeadViewHeight);
+            
+        } else if (offY < -HeadViewHeight) {
+            
+            self.listState = eListStateNormalDownType;
+            scrollView.contentOffset = CGPointMake(0, -HeadViewHeight);
+            
+        }
+    }
+    
+    _preOffY = offY;
+}
+
 #endif
 
 
