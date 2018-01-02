@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ReactiveProgramingViewController : UIViewController
+@interface ReactiveProgramingViewController<ObjectType> : UIViewController
+
+
 
 @end

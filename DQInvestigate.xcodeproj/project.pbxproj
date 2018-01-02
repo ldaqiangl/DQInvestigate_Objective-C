@@ -97,10 +97,25 @@
 		70F60AD01F1C9E0B00D9697D /* YiRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F60ACD1F1C9E0B00D9697D /* YiRefreshHeader.m */; };
 		8C4352B19F002DCE12670B57 /* Pods_DQInvestigateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71677DBAD61E1B441B7B86E9 /* Pods_DQInvestigateTests.framework */; };
 		CEE9D38EDD982ADA1D50920C /* Pods_DQInvestigate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6A030B4ED71C1C29F24BE44 /* Pods_DQInvestigate.framework */; };
+		DC16DC331FE21CEF007229D3 /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC16DC321FE21CEF007229D3 /* GCDViewController.m */; };
+		DC7EB13D1FC2EC4300C38D63 /* DQNetBusinessService.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7EB13C1FC2EC4300C38D63 /* DQNetBusinessService.m */; };
+		DC7EB14C1FC40C3800C38D63 /* ReactiveTwiterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7EB14A1FC40C3800C38D63 /* ReactiveTwiterViewController.m */; };
+		DC7EB14D1FC40C3800C38D63 /* ReactiveTwiterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC7EB14B1FC40C3800C38D63 /* ReactiveTwiterViewController.xib */; };
+		DC7EB1511FC4119000C38D63 /* FRPModleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7EB14F1FC4119000C38D63 /* FRPModleViewController.m */; };
+		DC7EB1521FC4119000C38D63 /* FRPModleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC7EB1501FC4119000C38D63 /* FRPModleViewController.xib */; };
+		DC7EB1551FC412AE00C38D63 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7EB1541FC412AE00C38D63 /* Person.m */; };
+		DC7EB1571FC4130800C38D63 /* persons.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC7EB1561FC4130800C38D63 /* persons.plist */; };
+		DC7EB15A1FC553C000C38D63 /* CustomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7EB1591FC553C000C38D63 /* CustomeView.m */; };
 		DC98FB901FC12CFE0080CE42 /* TestScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC98FB8E1FC12CFE0080CE42 /* TestScrollViewController.m */; };
 		DC98FB911FC12CFE0080CE42 /* TestScrollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC98FB8F1FC12CFE0080CE42 /* TestScrollViewController.xib */; };
 		DC98FB941FC135C80080CE42 /* DQButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DC98FB931FC135C80080CE42 /* DQButton.m */; };
 		DC98FB971FC143140080CE42 /* MyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC98FB961FC143140080CE42 /* MyScrollView.m */; };
+		DCA7F42A1FC7D38900EB1BD9 /* PartAttributeDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA7F4291FC7D38900EB1BD9 /* PartAttributeDescription.m */; };
+		DCA7F42D1FC7D3A400EB1BD9 /* AlertLogicManageFlowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA7F42C1FC7D3A400EB1BD9 /* AlertLogicManageFlowModel.m */; };
+		DCA7F4301FC7D3DE00EB1BD9 /* AlertLogicEntityDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA7F42F1FC7D3DE00EB1BD9 /* AlertLogicEntityDescription.m */; };
+		DCA7F4331FC7D51C00EB1BD9 /* AlertLogicCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA7F4321FC7D51C00EB1BD9 /* AlertLogicCoordinator.m */; };
+		DCA7F4361FC7D53200EB1BD9 /* ManagedObjectContext.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA7F4351FC7D53200EB1BD9 /* ManagedObjectContext.m */; };
+		DCA7F43B1FC990C600EB1BD9 /* PatientDiagnoseOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA7F43A1FC990C600EB1BD9 /* PatientDiagnoseOrder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -297,6 +312,21 @@
 		92936A71C88AAB76F14F7C38 /* Pods-DQInvestigateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DQInvestigateTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DQInvestigateTests/Pods-DQInvestigateTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A962CC219181272883356FD3 /* Pods_DQInvestigateUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DQInvestigateUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC18A8C4DD7629650F9DA696 /* Pods-DQInvestigate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DQInvestigate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DQInvestigate/Pods-DQInvestigate.debug.xcconfig"; sourceTree = "<group>"; };
+		DC16DC311FE21CEF007229D3 /* GCDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDViewController.h; sourceTree = "<group>"; };
+		DC16DC321FE21CEF007229D3 /* GCDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDViewController.m; sourceTree = "<group>"; };
+		DC7EB13B1FC2EC4300C38D63 /* DQNetBusinessService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DQNetBusinessService.h; sourceTree = "<group>"; };
+		DC7EB13C1FC2EC4300C38D63 /* DQNetBusinessService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DQNetBusinessService.m; sourceTree = "<group>"; };
+		DC7EB1491FC40C3800C38D63 /* ReactiveTwiterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactiveTwiterViewController.h; sourceTree = "<group>"; };
+		DC7EB14A1FC40C3800C38D63 /* ReactiveTwiterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactiveTwiterViewController.m; sourceTree = "<group>"; };
+		DC7EB14B1FC40C3800C38D63 /* ReactiveTwiterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReactiveTwiterViewController.xib; sourceTree = "<group>"; };
+		DC7EB14E1FC4119000C38D63 /* FRPModleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FRPModleViewController.h; sourceTree = "<group>"; };
+		DC7EB14F1FC4119000C38D63 /* FRPModleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FRPModleViewController.m; sourceTree = "<group>"; };
+		DC7EB1501FC4119000C38D63 /* FRPModleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FRPModleViewController.xib; sourceTree = "<group>"; };
+		DC7EB1531FC412AE00C38D63 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		DC7EB1541FC412AE00C38D63 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		DC7EB1561FC4130800C38D63 /* persons.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = persons.plist; sourceTree = "<group>"; };
+		DC7EB1581FC553C000C38D63 /* CustomeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomeView.h; sourceTree = "<group>"; };
+		DC7EB1591FC553C000C38D63 /* CustomeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomeView.m; sourceTree = "<group>"; };
 		DC98FB8D1FC12CFE0080CE42 /* TestScrollViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestScrollViewController.h; sourceTree = "<group>"; };
 		DC98FB8E1FC12CFE0080CE42 /* TestScrollViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestScrollViewController.m; sourceTree = "<group>"; };
 		DC98FB8F1FC12CFE0080CE42 /* TestScrollViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestScrollViewController.xib; sourceTree = "<group>"; };
@@ -304,6 +334,18 @@
 		DC98FB931FC135C80080CE42 /* DQButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DQButton.m; sourceTree = "<group>"; };
 		DC98FB951FC143140080CE42 /* MyScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScrollView.h; sourceTree = "<group>"; };
 		DC98FB961FC143140080CE42 /* MyScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScrollView.m; sourceTree = "<group>"; };
+		DCA7F4281FC7D38900EB1BD9 /* PartAttributeDescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PartAttributeDescription.h; sourceTree = "<group>"; };
+		DCA7F4291FC7D38900EB1BD9 /* PartAttributeDescription.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PartAttributeDescription.m; sourceTree = "<group>"; };
+		DCA7F42B1FC7D3A400EB1BD9 /* AlertLogicManageFlowModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertLogicManageFlowModel.h; sourceTree = "<group>"; };
+		DCA7F42C1FC7D3A400EB1BD9 /* AlertLogicManageFlowModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertLogicManageFlowModel.m; sourceTree = "<group>"; };
+		DCA7F42E1FC7D3DE00EB1BD9 /* AlertLogicEntityDescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertLogicEntityDescription.h; sourceTree = "<group>"; };
+		DCA7F42F1FC7D3DE00EB1BD9 /* AlertLogicEntityDescription.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertLogicEntityDescription.m; sourceTree = "<group>"; };
+		DCA7F4311FC7D51C00EB1BD9 /* AlertLogicCoordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertLogicCoordinator.h; sourceTree = "<group>"; };
+		DCA7F4321FC7D51C00EB1BD9 /* AlertLogicCoordinator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertLogicCoordinator.m; sourceTree = "<group>"; };
+		DCA7F4341FC7D53200EB1BD9 /* ManagedObjectContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManagedObjectContext.h; sourceTree = "<group>"; };
+		DCA7F4351FC7D53200EB1BD9 /* ManagedObjectContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManagedObjectContext.m; sourceTree = "<group>"; };
+		DCA7F4391FC990C600EB1BD9 /* PatientDiagnoseOrder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PatientDiagnoseOrder.h; sourceTree = "<group>"; };
+		DCA7F43A1FC990C600EB1BD9 /* PatientDiagnoseOrder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PatientDiagnoseOrder.m; sourceTree = "<group>"; };
 		E6A030B4ED71C1C29F24BE44 /* Pods_DQInvestigate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DQInvestigate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB0772F042C083C688E2C896 /* Pods-DQInvestigateUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DQInvestigateUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DQInvestigateUITests/Pods-DQInvestigateUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F6E9BD07BB861CF30CD58934 /* Pods-DQInvestigateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DQInvestigateTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DQInvestigateTests/Pods-DQInvestigateTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -421,6 +463,8 @@
 		702ECC5C1F1C6FCB001B35E8 /* BusinessModule */ = {
 			isa = PBXGroup;
 			children = (
+				DCA7F4381FC9908B00EB1BD9 /* DisLogicAlert */,
+				DCA7F4271FC7D33200EB1BD9 /* LogicAlert */,
 				702ECC5D1F1C6FCB001B35E8 /* BLEBusiness */,
 				702ECC5E1F1C6FCB001B35E8 /* DBBusiness */,
 				702ECC5F1F1C6FCB001B35E8 /* NetBusiness */,
@@ -446,6 +490,8 @@
 		702ECC5F1F1C6FCB001B35E8 /* NetBusiness */ = {
 			isa = PBXGroup;
 			children = (
+				DC7EB13B1FC2EC4300C38D63 /* DQNetBusinessService.h */,
+				DC7EB13C1FC2EC4300C38D63 /* DQNetBusinessService.m */,
 			);
 			path = NetBusiness;
 			sourceTree = "<group>";
@@ -500,9 +546,9 @@
 		702ECC681F1C6FCB001B35E8 /* ReactivePrograming */ = {
 			isa = PBXGroup;
 			children = (
+				DC7EB13A1FC2DC0900C38D63 /* Model */,
+				DC7EB1391FC2DC0300C38D63 /* View */,
 				702ECCA11F1C915C001B35E8 /* Controller */,
-				702ECCA21F1C915C001B35E8 /* Model */,
-				702ECCA31F1C915C001B35E8 /* View */,
 			);
 			name = ReactivePrograming;
 			path = Reactive;
@@ -572,22 +618,14 @@
 				702ECCA41F1C91AC001B35E8 /* ReactiveProgramingViewController.h */,
 				702ECCA51F1C91AC001B35E8 /* ReactiveProgramingViewController.m */,
 				702ECCA61F1C91AC001B35E8 /* ReactiveProgramingViewController.xib */,
+				DC7EB1491FC40C3800C38D63 /* ReactiveTwiterViewController.h */,
+				DC7EB14A1FC40C3800C38D63 /* ReactiveTwiterViewController.m */,
+				DC7EB14B1FC40C3800C38D63 /* ReactiveTwiterViewController.xib */,
+				DC7EB14E1FC4119000C38D63 /* FRPModleViewController.h */,
+				DC7EB14F1FC4119000C38D63 /* FRPModleViewController.m */,
+				DC7EB1501FC4119000C38D63 /* FRPModleViewController.xib */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		702ECCA21F1C915C001B35E8 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		702ECCA31F1C915C001B35E8 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		702ECCA91F1C9387001B35E8 /* Config */ = {
@@ -927,9 +965,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DC16DC301FE21CD2007229D3 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				DC16DC311FE21CEF007229D3 /* GCDViewController.h */,
+				DC16DC321FE21CEF007229D3 /* GCDViewController.m */,
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
 		DC7EB1351FC2DA6800C38D63 /* ThirdLibs */ = {
 			isa = PBXGroup;
 			children = (
+				DC16DC301FE21CD2007229D3 /* GCD */,
 				702ECC621F1C6FCB001B35E8 /* AOP */,
 				DC7EB1371FC2DABD00C38D63 /* CoreText */,
 				702ECC681F1C6FCB001B35E8 /* ReactivePrograming */,
@@ -959,6 +1007,25 @@
 			path = HardWare;
 			sourceTree = "<group>";
 		};
+		DC7EB1391FC2DC0300C38D63 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC7EB1581FC553C000C38D63 /* CustomeView.h */,
+				DC7EB1591FC553C000C38D63 /* CustomeView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DC7EB13A1FC2DC0900C38D63 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DC7EB1561FC4130800C38D63 /* persons.plist */,
+				DC7EB1531FC412AE00C38D63 /* Person.h */,
+				DC7EB1541FC412AE00C38D63 /* Person.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		DC98FB8C1FC12CAC0080CE42 /* TestScrollView */ = {
 			isa = PBXGroup;
 			children = (
@@ -967,6 +1034,40 @@
 				DC98FB8F1FC12CFE0080CE42 /* TestScrollViewController.xib */,
 			);
 			path = TestScrollView;
+			sourceTree = "<group>";
+		};
+		DCA7F4271FC7D33200EB1BD9 /* LogicAlert */ = {
+			isa = PBXGroup;
+			children = (
+				DCA7F4371FC7D9BC00EB1BD9 /* PartAttrs */,
+				DCA7F4341FC7D53200EB1BD9 /* ManagedObjectContext.h */,
+				DCA7F4351FC7D53200EB1BD9 /* ManagedObjectContext.m */,
+				DCA7F4311FC7D51C00EB1BD9 /* AlertLogicCoordinator.h */,
+				DCA7F4321FC7D51C00EB1BD9 /* AlertLogicCoordinator.m */,
+				DCA7F42B1FC7D3A400EB1BD9 /* AlertLogicManageFlowModel.h */,
+				DCA7F42C1FC7D3A400EB1BD9 /* AlertLogicManageFlowModel.m */,
+				DCA7F42E1FC7D3DE00EB1BD9 /* AlertLogicEntityDescription.h */,
+				DCA7F42F1FC7D3DE00EB1BD9 /* AlertLogicEntityDescription.m */,
+				DCA7F4281FC7D38900EB1BD9 /* PartAttributeDescription.h */,
+				DCA7F4291FC7D38900EB1BD9 /* PartAttributeDescription.m */,
+			);
+			path = LogicAlert;
+			sourceTree = "<group>";
+		};
+		DCA7F4371FC7D9BC00EB1BD9 /* PartAttrs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PartAttrs;
+			sourceTree = "<group>";
+		};
+		DCA7F4381FC9908B00EB1BD9 /* DisLogicAlert */ = {
+			isa = PBXGroup;
+			children = (
+				DCA7F4391FC990C600EB1BD9 /* PatientDiagnoseOrder.h */,
+				DCA7F43A1FC990C600EB1BD9 /* PatientDiagnoseOrder.m */,
+			);
+			path = DisLogicAlert;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1046,7 +1147,7 @@
 					702ECC131F1C69B0001B35E8 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = J3Z3CT678M;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					702ECC2F1F1C69B0001B35E8 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -1088,12 +1189,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				70C013621F682FA000A62303 /* 0.jpg in Resources */,
+				DC7EB1571FC4130800C38D63 /* persons.plist in Resources */,
 				70C013601F682F6E00A62303 /* 3.jpg in Resources */,
+				DC7EB14D1FC40C3800C38D63 /* ReactiveTwiterViewController.xib in Resources */,
 				70F60ACE1F1C9E0B00D9697D /* down@2x.png in Resources */,
 				7004390F1F28456D00443C17 /* InfoPlist.strings in Resources */,
 				70C0135F1F682F6E00A62303 /* 2.jpg in Resources */,
 				702ECC581F1C6CD9001B35E8 /* Info.plist in Resources */,
 				DC98FB911FC12CFE0080CE42 /* TestScrollViewController.xib in Resources */,
+				DC7EB1521FC4119000C38D63 /* FRPModleViewController.xib in Resources */,
 				70F60A971F1C9CEE00D9697D /* SVProgressHUD.bundle in Resources */,
 				702ECC2A1F1C69B0001B35E8 /* LaunchScreen.storyboard in Resources */,
 				70E4A6211F245A8B0056BD61 /* Assets.xcassets in Resources */,
@@ -1141,13 +1245,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DQInvestigate-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		2BE75C40FF23BBCC350EFB68 /* [CP] Check Pods Manifest.lock */ = {
@@ -1156,13 +1263,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DQInvestigateTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		436887C302E62FF4AEE63836 /* [CP] Copy Pods Resources */ = {
@@ -1201,9 +1311,46 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DQInvestigate/Pods-DQInvestigate-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Aspects/Aspects.framework",
+				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyAutoLayout/HandyAutoLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/JSPatch/JSPatch.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/MagicalRecord/MagicalRecord.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/Mixpanel/Mixpanel.framework",
+				"${BUILT_PRODUCTS_DIR}/NJKWebViewProgress/NJKWebViewProgress.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/WebViewJavascriptBridge/WebViewJavascriptBridge.framework",
+				"${BUILT_PRODUCTS_DIR}/XZLDependencyPackage/XZLDependencyPackage.framework",
+				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Aspects.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyAutoLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSPatch.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MagicalRecord.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mixpanel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NJKWebViewProgress.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WebViewJavascriptBridge.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XZLDependencyPackage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1216,13 +1363,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DQInvestigateUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AE1ECAE1996BEB8AD901520A /* [CP] Copy Pods Resources */ = {
@@ -1279,7 +1429,10 @@
 				70F60A981F1C9CEE00D9697D /* SVProgressHUD.m in Sources */,
 				702ECC9A1F1C8A81001B35E8 /* DQOtherViewController.m in Sources */,
 				70F60A961F1C9CEE00D9697D /* SVIndefiniteAnimatedView.m in Sources */,
+				DCA7F42D1FC7D3A400EB1BD9 /* AlertLogicManageFlowModel.m in Sources */,
+				DC7EB15A1FC553C000C38D63 /* CustomeView.m in Sources */,
 				70B302481F243D5C0067FB3C /* CustomeTableViewController.m in Sources */,
+				DC7EB13D1FC2EC4300C38D63 /* DQNetBusinessService.m in Sources */,
 				702ECC9D1F1C8A81001B35E8 /* DQUITestViewController.m in Sources */,
 				70F60A261F1C9AB500D9697D /* BSContainerTableView.m in Sources */,
 				70B302441F243C520067FB3C /* DQScrollView.m in Sources */,
@@ -1289,10 +1442,12 @@
 				70AA60C11F25DCC300AE14F7 /* DQCollectionViewCell.m in Sources */,
 				70F60A461F1C9AE300D9697D /* BabyBluetooth.m in Sources */,
 				70F60ABF1F1C9DDA00D9697D /* SDCycleScrollView.m in Sources */,
+				DC7EB1511FC4119000C38D63 /* FRPModleViewController.m in Sources */,
 				70F60AC71F1C9DEC00D9697D /* UIViewController+NJKFullScreenSupport.m in Sources */,
 				70C0135A1F682E4100A62303 /* OtherTestViewController.m in Sources */,
 				70F60ABD1F1C9DDA00D9697D /* TAPageControl.m in Sources */,
 				70F60A881F1C9BFF00D9697D /* NSString+BSExt.m in Sources */,
+				DCA7F4301FC7D3DE00EB1BD9 /* AlertLogicEntityDescription.m in Sources */,
 				70F60ABE1F1C9DDA00D9697D /* SDCollectionViewCell.m in Sources */,
 				70AA60B81F25DAF500AE14F7 /* CollectionViewController.m in Sources */,
 				70F60A491F1C9AE300D9697D /* BabyDefine.m in Sources */,
@@ -1302,14 +1457,19 @@
 				70F60A8C1F1C9BFF00D9697D /* UIFont+BSExt.m in Sources */,
 				70F60A821F1C9BFF00D9697D /* KeychainItemWrapper.m in Sources */,
 				70F60A481F1C9AE300D9697D /* BabyCentralManager.m in Sources */,
+				DC7EB1551FC412AE00C38D63 /* Person.m in Sources */,
+				DCA7F43B1FC990C600EB1BD9 /* PatientDiagnoseOrder.m in Sources */,
 				70F60A8D1F1C9BFF00D9697D /* UIImage+BSExt.m in Sources */,
 				702ECC9B1F1C8A81001B35E8 /* DQTabBarViewController.m in Sources */,
 				70F60A8B1F1C9BFF00D9697D /* UIDevice+BSExt.m in Sources */,
 				702ECC731F1C70F1001B35E8 /* DQAutoLayoutViewController.m in Sources */,
+				DC16DC331FE21CEF007229D3 /* GCDViewController.m in Sources */,
 				702ECC561F1C6CD9001B35E8 /* AppDelegate.m in Sources */,
 				702ECC591F1C6CD9001B35E8 /* main.m in Sources */,
+				DCA7F42A1FC7D38900EB1BD9 /* PartAttributeDescription.m in Sources */,
 				70F60A471F1C9AE300D9697D /* BabyCallback.m in Sources */,
 				70F60A831F1C9BFF00D9697D /* NSArray+BSExt.m in Sources */,
+				DCA7F4331FC7D51C00EB1BD9 /* AlertLogicCoordinator.m in Sources */,
 				70F60A7D1F1C9BFF00D9697D /* GTMBase64.m in Sources */,
 				70F60AA01F1C9D8A00D9697D /* LinkageListViewController.m in Sources */,
 				70F60AA61F1C9DA900D9697D /* NetDataModel.m in Sources */,
@@ -1327,8 +1487,10 @@
 				70F60A801F1C9BFF00D9697D /* BSHelper.m in Sources */,
 				702ECC7C1F1C8818001B35E8 /* DQAOPViewController.m in Sources */,
 				70F60A861F1C9BFF00D9697D /* NSDictionary+BSExt.m in Sources */,
+				DC7EB14C1FC40C3800C38D63 /* ReactiveTwiterViewController.m in Sources */,
 				70F60A7E1F1C9BFF00D9697D /* YYAES128Util.m in Sources */,
 				70F60AA21F1C9D8A00D9697D /* RootListViewController.m in Sources */,
+				DCA7F4361FC7D53200EB1BD9 /* ManagedObjectContext.m in Sources */,
 				702ECCA71F1C91AC001B35E8 /* ReactiveProgramingViewController.m in Sources */,
 				702ECCA01F1C8AAB001B35E8 /* HardwareTableViewCell.m in Sources */,
 				70B302421F243C520067FB3C /* _DQViewManager.m in Sources */,
@@ -1496,12 +1658,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BC18A8C4DD7629650F9DA696 /* Pods-DQInvestigate.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = J3Z3CT678M;
 				GCC_PREFIX_HEADER = DQInvestigate/Config/DQInvestigatePrefixHeader.pch;
 				INFOPLIST_FILE = DQInvestigate/Main/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ldaqiangl.DQInvestigate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinzhili.DQInvestigate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7be8e550-5a67-4f7d-b490-9838b423711b";
+				PROVISIONING_PROFILE_SPECIFIER = AnyDemoAppID_dev;
 			};
 			name = Debug;
 		};
@@ -1509,12 +1674,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3C8C2C30B543B81579E381C2 /* Pods-DQInvestigate.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = J3Z3CT678M;
 				GCC_PREFIX_HEADER = DQInvestigate/Config/DQInvestigatePrefixHeader.pch;
 				INFOPLIST_FILE = DQInvestigate/Main/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ldaqiangl.DQInvestigate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinzhili.DQInvestigate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7be8e550-5a67-4f7d-b490-9838b423711b";
+				PROVISIONING_PROFILE_SPECIFIER = AnyDemoAppID_dev;
 			};
 			name = Release;
 		};

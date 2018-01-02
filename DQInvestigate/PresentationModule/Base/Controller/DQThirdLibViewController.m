@@ -8,6 +8,7 @@
 
 #import "DQThirdLibViewController.h"
 #import "ReactiveProgramingViewController.h"
+#import "GCDViewController.h"
 
 @interface DQThirdLibViewController ()
 
@@ -23,7 +24,7 @@
     if (!_dataSourceArr) {
         
         _dataSourceArr = [NSMutableArray array];
-        NSArray *arr = @[@"ReactNative",@"ReactCocoa",@"YYKit",@"AFNetworking",
+        NSArray *arr = @[@"GCD",@"ReactNative",@"ReactCocoa",@"YYKit",@"AFNetworking",
                          @"Aspects",@"MagicalRecord",@"JSPatch"];
         for (NSInteger i = 0; i < arr.count; i++) {
             
@@ -74,7 +75,15 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    if (indexPath.row == 1) {
+    if (indexPath.row == 0) {
+        
+        GCDViewController *gcdVc = [[GCDViewController alloc] init];
+        
+        gcdVc.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:gcdVc animated:YES];
+    }
+    
+    if (indexPath.row == 2) {
         
         ReactiveProgramingViewController *rpVc = [[ReactiveProgramingViewController alloc] init];
         rpVc.hidesBottomBarWhenPushed = YES;

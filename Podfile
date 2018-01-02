@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-source 'https://git.xzlcorp.com/daqiang/XZLDependencyPodSpecs.git'  #私有spec仓库的地址
+source 'git@git.xzlcorp.com:mobile/XZLDependencyPodSpecs.git'  #私有spec仓库的地址
 source 'https://github.com/CocoaPods/Specs.git'  #官方仓库的地址
 
 inhibit_all_warnings!
@@ -29,7 +29,7 @@ target 'DQInvestigate' do
     pod 'XZLDependencyPackage’, ‘0.0.9’
 
     pod 'AFNetworking'
-    pod 'ReactiveCocoa'
+    pod 'ReactiveObjC'
     pod 'Aspects'
     pod 'MagicalRecord'
     pod 'Masonry'

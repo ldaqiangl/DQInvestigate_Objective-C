@@ -15,6 +15,8 @@
 #import "CollectionViewController.h"
 #import "TestScrollViewController.h"
 
+@import ReactiveObjC;
+
 @interface TableListViewController ()
 <UITableViewDelegate,UITableViewDataSource>
 {

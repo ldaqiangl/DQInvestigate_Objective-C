@@ -7,6 +7,8 @@
 //
 
 #import "OtherTestViewController.h"
+#import "ManagedObjectContext.h"
+
 #define IMAGE_COUNT 3
 @interface OtherTestViewController (){
     UIImageView *_imageView;
@@ -31,20 +33,26 @@
 //
 //    return;
     
-    //定义图片控件
-    _imageView=[[UIImageView alloc]init];
-    _imageView.frame=[UIScreen mainScreen].bounds;
-    _imageView.contentMode=UIViewContentModeScaleToFill;
-    _imageView.image=[UIImage imageNamed:@"0.jpg"];//默认图片
-    [self.view addSubview:_imageView];
-    //添加手势
-    UISwipeGestureRecognizer *leftSwipeGesture=[[UISwipeGestureRecognizer alloc]initWithTarget:self action:@selector(leftSwipe:)];
-    leftSwipeGesture.direction=UISwipeGestureRecognizerDirectionLeft;
-    [self.view addGestureRecognizer:leftSwipeGesture];
+//    //定义图片控件
+//    _imageView=[[UIImageView alloc]init];
+//    _imageView.frame=[UIScreen mainScreen].bounds;
+//    _imageView.contentMode=UIViewContentModeScaleToFill;
+//    _imageView.image=[UIImage imageNamed:@"0.jpg"];//默认图片
+//    [self.view addSubview:_imageView];
+//    //添加手势
+//    UISwipeGestureRecognizer *leftSwipeGesture=[[UISwipeGestureRecognizer alloc]initWithTarget:self action:@selector(leftSwipe:)];
+//    leftSwipeGesture.direction=UISwipeGestureRecognizerDirectionLeft;
+//    [self.view addGestureRecognizer:leftSwipeGesture];
+//
+//    UISwipeGestureRecognizer *rightSwipeGesture=[[UISwipeGestureRecognizer alloc]initWithTarget:self action:@selector(rightSwipe:)];
+//    rightSwipeGesture.direction=UISwipeGestureRecognizerDirectionRight;
+//    [self.view addGestureRecognizer:rightSwipeGesture];
     
-    UISwipeGestureRecognizer *rightSwipeGesture=[[UISwipeGestureRecognizer alloc]initWithTarget:self action:@selector(rightSwipe:)];
-    rightSwipeGesture.direction=UISwipeGestureRecognizerDirectionRight;
-    [self.view addGestureRecognizer:rightSwipeGesture];
+    PartAttributeDescription *partAttr = [[PartAttributeDescription alloc] init];
+    partAttr.name = @"扩张性心肌病";
+    partAttr.attributeType = @"";
+    
+    
 }
 
 #pragma mark 向左滑动浏览下一张图片
